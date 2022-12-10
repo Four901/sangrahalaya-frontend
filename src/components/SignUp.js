@@ -10,8 +10,8 @@ const SignUp = (props) => {
     const navigate=useNavigate()
     const [credentials,setcredentials]=useState({Code:"",Region:"",Location:"",Department:"",Address:"",Password:""})
       
-    const host="https://sangrahalaya.herokuapp.com"
-    
+   // const host="https://sangrahalaya.herokuapp.com"
+   const host="https://sangrahalaya-server.onrender.com";
     
     const handleSubmit=async(e)=>{
       

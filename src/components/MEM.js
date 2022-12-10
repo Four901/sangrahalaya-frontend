@@ -6,8 +6,9 @@ import Row3 from './Row3';
 const MEM = (props) => {
     const componentRef=useRef(null)
     //const host="http://localhost:5000"
-    const host="https://sangrahalaya.herokuapp.com";
-    const StringAuthToken=localStorage.getItem("token")
+   // const host="https://sangrahalaya.herokuapp.com";
+   const host="https://sangrahalaya-server.onrender.com";
+   const StringAuthToken=localStorage.getItem("token")
     const startDate=JSON.stringify(props.startDate).substring(1,11)
     const endDate=JSON.stringify(props.endDate).substring(1,11)
    

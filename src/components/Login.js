@@ -6,8 +6,9 @@ const Login =  (props) => {
     const navigate=useNavigate()
     const [credentials,setcredentials]=useState({Code:"",Password:""})
     //const host="http://localhost:5000"
-   const host="https://sangrahalaya.herokuapp.com";
-    const handleSubmit=async(e)=>{
+  // const host="https://sangrahalaya.herokuapp.com";
+  const host="https://sangrahalaya-server.onrender.com";
+  const handleSubmit=async(e)=>{
         e.preventDefault();
         const response=await fetch(`${host}/api/auth/loginuser`,{
             method:"POST",
