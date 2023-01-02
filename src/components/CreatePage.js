@@ -9,7 +9,8 @@ const CreatePage = (props) => {
   
     //const host="http://localhost:5000"
     //const host="https://sangrahalaya.herokuapp.com";
-    const host="https://sangrahalaya-server.onrender.com";
+   // const host="https://sangrahalaya-server.onrender.com";
+   const host="https://web-production-398e.up.railway.app";
     const StringAuthToken=localStorage.getItem("token")
 
     const [saved,setSaved]=useState("T")

@@ -11,8 +11,8 @@ const SignUp = (props) => {
     const [credentials,setcredentials]=useState({Code:"",Region:"",Location:"",Department:"",Address:"",Password:""})
       
    // const host="https://sangrahalaya.herokuapp.com"
-   const host="https://sangrahalaya-server.onrender.com";
-    
+  // const host="https://sangrahalaya-server.onrender.com";
+  const host="https://web-production-398e.up.railway.app";
     const handleSubmit=async(e)=>{
       
         e.preventDefault();

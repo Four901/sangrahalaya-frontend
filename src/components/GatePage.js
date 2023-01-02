@@ -9,8 +9,9 @@ const GatePage = () => {
   const refClose= useRef(null);*/
   //const host="http://localhost:5000"
  // const host="https://sangrahalaya.herokuapp.com";
- const host="https://sangrahalaya-server.onrender.com";
-  const StringAuthToken=localStorage.getItem("token")
+// const host="https://sangrahalaya-server.onrender.com";
+const host="https://web-production-398e.up.railway.app";
+const StringAuthToken=localStorage.getItem("token")
   const [date,setDate]=useState("")
  const getDate=()=>{
    //console.log("nithing")
